@@ -79,7 +79,7 @@ frs = FaceRecognitionSystem()
 
 # Agregar manualmente rostros conocidos
 # Por ejemplo:
-# imagen = cv2.imread("ruta/a/la/imagen.jpg")
+# imagen = cv2.imread("ruta/a/la/Walter.jpg")
 # frs.add_face(imagen, "Nombre del Empleado")
 
 # Ejecutar el sistema
