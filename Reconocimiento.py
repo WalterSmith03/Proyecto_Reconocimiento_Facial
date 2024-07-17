@@ -19,7 +19,7 @@ class FaceRecognitionSystem:
         success, img = cap.read()
         cap.release()
         if not success:
-            raise Exception("Could not take photo")
+            raise Exception("No se pudo tomar la foto")
         return img
 
     def recognize_face(self, img):
@@ -79,7 +79,7 @@ frs = FaceRecognitionSystem()
 
 # Agregar manualmente rostros conocidos
 # Por ejemplo:
-# imagen = cv2.imread("ruta/a/la/Walter.jpg")
+# imagen = cv2.imread("ruta/a/la/imagen.jpg")
 # frs.add_face(imagen, "Nombre del Empleado")
 
 # Ejecutar el sistema
